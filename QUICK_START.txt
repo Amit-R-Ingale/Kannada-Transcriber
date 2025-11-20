@@ -1,0 +1,81 @@
+========================================================================
+HOW TO USE AFTER INSTALLATION
+========================================================================
+
+  1. Double-click the desktop icon
+  2. Browser opens automatically at http://localhost:8000
+  3. Click microphone button
+  4. Grant permission when browser asks
+  5. Speak into your microphone
+  6. See text appear in real-time!
+  7. Use export buttons to save as TXT or Word
+
+========================================================================
+EXPORT OPTIONS
+========================================================================
+
+  TXT - Plain text file
+  Word - Microsoft Word document with Nudi font support
+  Copy - Copy to clipboard
+
+========================================================================
+TROUBLESHOOTING
+========================================================================
+
+  Microphone not working?
+    Check browser permissions (click lock icon in address bar)
+    Make sure microphone is connected
+    Close other apps using microphone
+
+  Browser not opening?
+    Manually open: http://localhost:8000
+    Try Chrome or Edge browser
+    Check Windows Firewall settings
+
+  App not starting?
+    Right-click icon > Run as administrator
+    Check antivirus isn't blocking it
+    Reinstall the application
+
+========================================================================
+UNINSTALLATION
+========================================================================
+
+  To uninstall:
+    Windows Settings > Apps > Apps & Features
+    Find "Free Online Transcription"
+    Click Uninstall
+
+========================================================================
+TECHNICAL DETAILS
+========================================================================
+
+  Version: 1.0
+  License: MIT License (Open Source)
+  Platform: Windows 10/11 (64-bit)
+  Installation Size: ~10 MB
+  Technology: Python + Web Speech API
+
+========================================================================
+SUPPORT & FEEDBACK
+========================================================================
+
+  GitHub: github.com/Amit-R-Ingale/Kannada-Transcriber
+  Issues: Report bugs on GitHub Issues page
+  Updates: Check GitHub for new versions
+
+========================================================================
+COPYRIGHT & LICENSE
+========================================================================
+
+  Copyright (c) 2025 Amit Rangarava Ingale
+  
+  This software is provided "as is" without warranty.
+  Free for personal and commercial use.
+  See LICENSE.txt for full terms.
+
+========================================================================
+
+Thank you for installing Free Online Transcription!
+
+========================================================================
