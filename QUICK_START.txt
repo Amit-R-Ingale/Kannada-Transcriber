@@ -1,81 +1,152 @@
-========================================================================
-HOW TO USE AFTER INSTALLATION
-========================================================================
+# Free Online Transcription - Quick Start Guide
 
-  1. Double-click the desktop icon
-  2. Browser opens automatically at http://localhost:8000
-  3. Click microphone button
-  4. Grant permission when browser asks
-  5. Speak into your microphone
-  6. See text appear in real-time!
-  7. Use export buttons to save as TXT or Word
+== Getting Started (3 Easy Steps) ==
 
-========================================================================
-EXPORT OPTIONS
-========================================================================
+Method 1: Using Portable Version (No Installation)
+1. Extract the "Free_Online_Transcription_Portable" folder
+2. Double-click "Start.bat"
+3. Browser opens automatically - Start transcribing!
 
-  TXT - Plain text file
-  Word - Microsoft Word document with Nudi font support
-  Copy - Copy to clipboard
+Method 2: Using Installer
+1. Run "Free_Online_Transcription_Complete_Setup_v1.0.exe"
+2. Follow installation wizard
+3. Launch from Start Menu or Desktop
 
-========================================================================
-TROUBLESHOOTING
-========================================================================
+== Main Features ==
 
-  Microphone not working?
-    Check browser permissions (click lock icon in address bar)
-    Make sure microphone is connected
-    Close other apps using microphone
+### 1. Real-Time Transcription
+- Click the microphone button
+- Speak clearly into your microphone
+- See text appear in real-time
+- Click stop when done
 
-  Browser not opening?
-    Manually open: http://localhost:8000
-    Try Chrome or Edge browser
-    Check Windows Firewall settings
+### 2. Audio File Upload
+- Switch to "Upload Audio File" tab
+- Drag and drop audio file OR click "Browse Files"
+- Supports: MP3, WAV, M4A, OGG, FLAC
+- Automatic transcription starts
+- Works with files up to 30MB
 
-  App not starting?
-    Right-click icon > Run as administrator
-    Check antivirus isn't blocking it
-    Reinstall the application
+### 3. Language Support
+- 99+ languages supported
+- Select your language from dropdown
+- Auto-detect available for real-time
+- Indian languages fully supported:
+  • Kannada (ಕನ್ನಡ)
+  • Hindi (हिन्दी)
+  • Tamil (தமிழ்)
+  • Telugu (తెలుగు)
+  • Malayalam (മലയാളം)
+  • Marathi (मराठी)
+  • Bengali (বাংলা)
+  • Punjabi (ਪੰਜਾਬੀ)
+  • Gujarati (ગુજરાતી)
 
-========================================================================
-UNINSTALLATION
-========================================================================
+### 4. Export Options
+- **Copy**: Copy text to clipboard
+- **TXT**: Download as text file
+- **Word**: Export to .doc with proper Indian fonts
 
-  To uninstall:
-    Windows Settings > Apps > Apps & Features
-    Find "Free Online Transcription"
-    Click Uninstall
+### 5. History
+- All transcriptions saved automatically
+- Access past transcriptions from sidebar
+- Click any history item to view
+- Delete unwanted items
 
-========================================================================
-TECHNICAL DETAILS
-========================================================================
+## ⚙️ Settings & Options
 
-  Version: 1.0
-  License: MIT License (Open Source)
-  Platform: Windows 10/11 (64-bit)
-  Installation Size: ~10 MB
-  Technology: Python + Web Speech API
+### Real-Time Mode
+- **Continuous Mode**: Keep recording until you stop
+- **Interim Results**: See text as you speak
+- **Auto-Punctuation**: Automatic periods and capitals
 
-========================================================================
-SUPPORT & FEEDBACK
-========================================================================
+### Recording Controls
+- **Microphone Button**: Start/Stop recording
+- **Pause Button**: Take breaks during recording
+- **Timer**: Track recording duration
 
-  GitHub: github.com/Amit-R-Ingale/Kannada-Transcriber
-  Issues: Report bugs on GitHub Issues page
-  Updates: Check GitHub for new versions
+## 🔧 Troubleshooting
 
-========================================================================
-COPYRIGHT & LICENSE
-========================================================================
+### Microphone Issues
+**Problem**: Microphone not detected
+**Solution**:
+1. Check if microphone is connected
+2. Allow microphone permission in browser
+3. Check Windows settings:
+   - Settings → Privacy & Security → Microphone
+   - Enable for your browser
 
-  Copyright (c) 2025 Amit Rangarava Ingale
-  
-  This software is provided "as is" without warranty.
-  Free for personal and commercial use.
-  See LICENSE.txt for full terms.
+**Problem**: "Permission denied" error
+**Solution**:
+1. Click the lock icon in browser address bar
+2. Find "Microphone"
+3. Change to "Allow"
+4. Reload page (F5)
 
-========================================================================
+### File Upload Issues
+**Problem**: File upload not working
+**Solution**:
+1. Check file format (MP3, WAV, M4A, OGG, FLAC)
+2. Ensure file is under 30MB
+3. Make sure FFmpeg is installed/bundled
+4. For installed version: Reinstall to get FFmpeg
 
-Thank you for installing Free Online Transcription!
+**Problem**: "Transcription failed" error
+**Solution**:
+1. Try a shorter audio file (under 5 minutes works best)
+2. Convert to WAV format
+3. Reduce audio quality to make file smaller
+4. Use real-time recording instead
 
-========================================================================
+### History Not Saving
+**Problem**: History disappears after closing
+**Solution**:
+1. Check 'data' folder exists (portable version)
+2. For installed version: Check folder permissions
+3. Try running as Administrator
+4. Check browser localStorage is enabled
+
+### Port Already in Use
+**Problem**: "Port 8000 already in use"
+**Solution**:
+1. Close any other instance of the app
+2. Close other apps using port 8000
+3. Restart computer if needed
+
+## 💡 Tips for Best Results
+
+### For Real-Time Transcription:
+- Speak clearly and at moderate speed
+- Use a good quality microphone
+- Minimize background noise
+- Pause briefly between sentences
+- Review and edit afterwards
+
+### For File Upload:
+- Use good quality audio recordings
+- Keep files under 5 minutes for best results
+- WAV format works best
+- Reduce background noise before recording
+- Split long recordings into segments
+
+### For Indian Languages:
+- Select the correct language before starting
+- Speak clearly in the selected language
+- Don't mix languages in one sentence
+- Use the Word export for proper font rendering
+
+## 🌐 Browser Recommendations
+
+**Best**: Google Chrome or Microsoft Edge
+**Good**: Safari (macOS/iOS)
+**Limited**: Firefox (some features may not work)
+
+## 📧 Need Help?
+
+**Email**: amitingaleimop@gmail.com
+**GitHub**: github.com/Amit-R-Ingale/Kannada-Transcriber
+
+## 📄 License
+
+MIT License - Free to use for personal and commercial projects
+© 2025 Amit Rangarava Ingale
