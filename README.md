@@ -84,13 +84,13 @@ This tool works entirely inside your browser using the Web Speech API — no dat
   
 ### Use:  
   
-* ⏸️** Pause to stop temporarily**  
+* ⏸️ Pause to stop temporarily  
   
-* 📘** Export buttons to save your text**  
+* 📘 Export buttons to save your text  
   
-* 🗑️** Clear to reset**  
+* 🗑️ Clear to reset  
   
-* **History is automatically stored locally**  
+* History is automatically stored locally  
   
   
   
